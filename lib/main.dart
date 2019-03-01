@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:honeybee/page/HomePage.dart';
+import 'package:honeybee/pages/MainPage.dart';
 
 void main() => runApp(new MyApp());
 
@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       title: 'Honeybee',
       theme: new ThemeData(
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.white,
       ),
-      home: new HomePage(),
+      home: new MainPage(),
     );
   }
 }
